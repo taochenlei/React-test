@@ -21,7 +21,7 @@ class App extends React.Component {
                 Found: {this.state.images.length} images
                 <ImageList images={this.state.images} />
             </div>
-            );
+        );
     }
 };
 
