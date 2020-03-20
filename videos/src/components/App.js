@@ -5,8 +5,6 @@ import VideoDetail from "./VideoDetail";
 
 import youtube from '../apis/Youtube';
 
-
-
 class App extends React.Component {
     state = {videos: [], selectedVideo: null};
 
