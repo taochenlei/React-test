@@ -4,6 +4,8 @@ yarn install
 npm install --save axios
 npm install --save redux react-redux axios redux-thunk
 npm install --save lodash
+npm install --save react-router-dom
+
 
 ========run the project (http://localhost:3000/)======================
 npm start
