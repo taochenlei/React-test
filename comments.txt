@@ -1,0 +1,56 @@
+========create a new react project======================
+npx create-react-app projectname
+yarn install
+npm install --save axios
+npm install --save redux react-redux axios redux-thunk
+npm install --save lodash
+
+========run the project (http://localhost:3000/)======================
+npm start
+
+========CSS======================
+semantic ui cdn
+
+========faker everything======================
+npm install --save faker
+
+========semantic.min.css======================
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+
+
+========Axios Version Bug & 400 "Required Parameter: part" Error:
+npm install axios@0.18.1
+
+
+
+
+========kill all tasks in port======================
+taskkill -F -IM node.exe
+
+
+
+
+
+
+
+
+removing an element from an array:
+    state.pop() -> state.filter(element => element !== 'hi')
+adding an element to an array:
+    state.push('hi') -> [...state, 'hi']
+replacing an element in an array:
+    state[0] = 'hi' -> state.map(el => el === 'hi' ? 'bye' : el)
+updating a property in an object:
+    state.name = 'Sam' -> {...state, name: 'Sam'}
+adding a property to an object:
+    state.age = 30 -> {...state, age: 30}
+removing a property from an object:
+    delete state.name -> {...state, age: undefined}
+                          _.omit(state, 'age')
+
+
+========up to 165
+https://semantic-ui.com/collections/grid.html
+https://jsonplaceholder.typicode.com/posts
+
+
