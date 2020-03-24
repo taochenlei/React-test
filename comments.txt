@@ -6,7 +6,12 @@ npm install --save redux react-redux axios redux-thunk
 npm install --save lodash
 npm install --save react-router-dom
 npm install --save redux react-redux
+npm install --save redux-form
 
+
+========server======================
+npm init
+npm install --save json-server
 
 ========run the project (http://localhost:3000/)======================
 npm start
