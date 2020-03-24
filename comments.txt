@@ -5,6 +5,7 @@ npm install --save axios
 npm install --save redux react-redux axios redux-thunk
 npm install --save lodash
 npm install --save react-router-dom
+npm install --save redux react-redux
 
 
 ========run the project (http://localhost:3000/)======================
@@ -18,6 +19,8 @@ npm install --save faker
 
 ========semantic.min.css======================
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+
+<script src="https://apis.google.com/js/api.js"></script>
 
 
 ========Axios Version Bug & 400 "Required Parameter: part" Error:
@@ -54,5 +57,4 @@ removing a property from an object:
 ========up to 165
 https://semantic-ui.com/collections/grid.html
 https://jsonplaceholder.typicode.com/posts
-
 
