@@ -8,7 +8,6 @@ npm install --save react-router-dom
 npm install --save redux react-redux
 npm install --save redux-form
 
-
 ========server======================
 npm init
 npm install --save json-server
@@ -27,12 +26,8 @@ npm install --save faker
 
 <script src="https://apis.google.com/js/api.js"></script>
 
-
 ========Axios Version Bug & 400 "Required Parameter: part" Error:
 npm install axios@0.18.1
-
-
-
 
 ========kill all tasks in port======================
 taskkill -F -IM node.exe
@@ -58,8 +53,18 @@ removing a property from an object:
     delete state.name -> {...state, age: undefined}
                           _.omit(state, 'age')
 
-
 ========up to 165
 https://semantic-ui.com/collections/grid.html
 https://jsonplaceholder.typicode.com/posts
 
+
+
+
+In the next lecture we are going to be creating our history object. As of React Router DOM v4.4.0 you will get a warning in your console:
+
+Warning: Please use `require("history").createBrowserHistory` instead of `require("history/createBrowserHistory")`. Support for the latter will be removed in the next major release.
+
+To fix, our history.js file should instead look like this:
+
+import { createBrowserHistory } from 'history';
+export default createBrowserHistory();

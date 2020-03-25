@@ -9,6 +9,18 @@
       "title": "stream2",
       "description": "this is stream 2",
       "id": 2
+    },
+    {
+      "title": "stream t 1",
+      "description": "this is made by me 1",
+      "userId": "108565289809334076308",
+      "id": 3
+    },
+    {
+      "title": "bad stream",
+      "description": "this is a bad stream",
+      "userId": "108565289809334076308",
+      "id": 4
     }
   ]
 }
