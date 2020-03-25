@@ -11,16 +11,21 @@
       "id": 2
     },
     {
-      "title": "stream t 1",
-      "description": "this is made by me 1",
-      "userId": "108565289809334076308",
+      "title": "stream t 1 tttttttttt",
+      "description": "this is made by me 1 tttttt",
       "id": 3
     },
     {
-      "title": "bad stream",
-      "description": "this is a bad stream",
+      "title": "bad stream test",
+      "description": "this is a bad stream patch test",
       "userId": "108565289809334076308",
       "id": 4
+    },
+    {
+      "title": "stream with reusable form",
+      "description": "this is a stream using the reusable form",
+      "userId": "108565289809334076308",
+      "id": 5
     }
   ]
 }
