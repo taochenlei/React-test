@@ -1,11 +1,6 @@
 {
   "streams": [
     {
-      "title": "stream1",
-      "description": "this is stream 1",
-      "id": 1
-    },
-    {
       "title": "stream2",
       "description": "this is stream 2",
       "id": 2
@@ -13,17 +8,18 @@
     {
       "title": "stream t 1 tttttttttt",
       "description": "this is made by me 1 tttttt",
+      "userId": "108565289809334076308",
       "id": 3
     },
     {
-      "title": "bad stream test",
-      "description": "this is a bad stream patch test",
+      "title": "stream after delete",
+      "description": "this is a new stream after delete completed",
       "userId": "108565289809334076308",
       "id": 4
     },
     {
-      "title": "stream with reusable form",
-      "description": "this is a stream using the reusable form",
+      "title": "1 deleted",
+      "description": "this is a stream after delete the old id=1 stream",
       "userId": "108565289809334076308",
       "id": 5
     }
